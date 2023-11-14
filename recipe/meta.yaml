@@ -33,6 +33,7 @@ requirements:
     - rasterio
     - geopandas
     - stripy
+    - plate-model-manager
 
 test:
   imports:
@@ -41,6 +42,7 @@ test:
     - pip check
   requires:
     - pip
+    - pytest
 
 about:
   home: https://github.com/GPlates/gplately
@@ -53,3 +55,4 @@ extra:
   recipe-maintainers:
     - brmather
     - jcannon-gplates
+    - michaelchin
