@@ -1,5 +1,5 @@
 {% set name = "gplately" %}
-{% set version = "1.2.7" %}
+{% set version = "1.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gplately-{{ version }}.tar.gz
-  sha256: c4ce8f5546952a26011549083bf4a345faadb1d6541a9d13643ac640195a748d
+  sha256: bd6457d4a93fd4db65e58ae2004884a79c85daa3df23ee5d3930834acd7ba6e1
 
 build:
   noarch: python
